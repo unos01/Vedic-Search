@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#div1{
+    width:100%;
+    height:50px;
+    background-color: aqua;
+    /* padding-left: 5%;
+    padding-right: 5%;
+    border-left: 50px solid black;
+    border-right: 50px solid black; */
+    
+}
+.logo-div{
+    width:100%;
+    height:80px;
+    background-color: rgb(6, 1, 36);
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 1px;
+    font-size: 50px;
+    /* border: 1px solid rgb(11, 2, 38); */
+    border-radius: 5px;
+    color: aliceblue;
+}
+.nav-div{
+    width:100%;
+    height:45px;
+    background-color: rgb(43, 32, 69);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(11, 2, 38);
+    border-radius: 5px;
+}
+.box{
+    width: 100px;
+    height: 44px;
+    background-color: rgb(11, 2, 38);
+    margin-left: 1px;
+    color: aliceblue;
+    border-radius: 10px;
+    /* border: 1px solid rgb(35, 2, 2); */
+    /* line-height: 44px; */
+}
+.box a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.box:hover{
+    background-color: black;
+    border: 2px solid rebeccapurple;
+    cursor: pointer;
+}
+.main{
+    width:100%;
+    height: 550px;
+    background-color: aqua;
+    margin-bottom: 1px;
+    /* display: flex; */
+    justify-content: center;
+    border: 1px solid rgb(11, 2, 38);
+    border-radius: 5px;
+    background-image: url(https://th.bing.com/th/id/R.bcbb3489c81714702fd3a83e03b60270?rik=P%2bkWgYnztBU3ZQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-qaa3wPumcns%2fTsnu5lH51VI%2fAAAAAAAAAzg%2fQlDeoQGFNlA%2fs1600%2fBhagavad-Gita-2.jpg&ehk=fPql8a%2bbALql1aJKjoXKQGYwPlCoKbPjJROAJYaoxLM%3d&risl=&pid=ImgRaw&r=0);
+}
+.sear{
+    height: 45px;
+    width:500px;
+    margin-top: 20px;
+}
+.inp{
+    width:395px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 15px;
+    font-size: 15px;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+.click-search{
+    width:100px;
+    height: 45px;
+    border-radius: 25px;
+    border-style: none;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 6, 36);
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid rgb(11, 2, 38);
+    border-radius: 5px;
+    color:aliceblue
+}
+#wrap{
+    width: 70%;
+    /* background-color: black; */
+    margin: auto;  /*center align*/
+}
+.shalokhead{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 40px; 
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 1px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.shalok{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 1px;
+    font-weight:bolder;
+    color: rgb(254, 0, 0);
+}
+.meaning{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 80px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    color: rgb(215, 5, 5);
+}
+.tatparyahin{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(144, 4, 4);
+    /* line-height: 150px; */
+}
+/* .tatparyaeng{
+    background-color: aliceblue;
+    width: 100%;
+    height: 15px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 150px; 
+} */
+.nextpre{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.pre{
+    background-color: rgb(6, 6, 30);
+    height: 30px;
+    width:80px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 2px;
+    border-radius: 6px;
+}
+.pre a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.next{
+    background-color: rgb(6, 6, 33);
+    height: 30px;
+    width:80px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 2px;
+    border-radius: 6px;
+}
+.next a{
+    color: aliceblue;
+    text-decoration: none;
+}

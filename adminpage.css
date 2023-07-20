@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+
+.logo-div{
+    width:100%;
+    height:80px;
+    background-color: rgb(6, 1, 36);
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 1px;
+    font-size: 50px;
+    /* border: 1px solid rgb(11, 2, 38); */
+    border-radius: 5px;
+    color: aliceblue;
+}
+.nav-div{
+    width:100%;
+    height:45px;
+    background-color: rgb(56, 12, 159);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(11, 2, 38);
+    border-radius: 5px;
+}
+.box{
+    width: 100px;
+    height: 44px;
+    background-color: rgb(11, 2, 38);
+    margin-left: 1px;
+    color: aliceblue;
+    border-radius: 10px;
+    /* border: 1px solid rgb(226, 7, 7); */
+}
+.box a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.box:hover{
+    background-color: black;
+    border: 2px solid rebeccapurple;
+    cursor: pointer;
+}
+.main{
+    width:100%;
+    height: 550px;
+    background-color: aqua;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(11, 2, 38);
+    border-radius: 5px;
+    background-image: url(https://th.bing.com/th/id/R.bcbb3489c81714702fd3a83e03b60270?rik=P%2bkWgYnztBU3ZQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-qaa3wPumcns%2fTsnu5lH51VI%2fAAAAAAAAAzg%2fQlDeoQGFNlA%2fs1600%2fBhagavad-Gita-2.jpg&ehk=fPql8a%2bbALql1aJKjoXKQGYwPlCoKbPjJROAJYaoxLM%3d&risl=&pid=ImgRaw&r=0);
+}
+.form{
+    width: 500px;
+    height: 300px;
+    background-color:rgb(227, 217, 217);
+    opacity: 0.5;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.head{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.user{
+    margin-bottom: 5px;
+}
+.username{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: rgb(2, 2, 14);
+}
+.pass{
+    margin-bottom: 5px;
+}
+.password{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: rgb(2, 2, 14);
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: rgb(2, 2, 14);
+    background-color: rgb(4, 4, 22);
+    color: aliceblue;
+}
+.btn{
+    margin-bottom: 10px;
+}
+.message a{
+    color: rgb(17, 4, 89);
+    font-size: 20px;
+}
+.message p{
+    color: rgb(14, 3, 67);
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 6, 36);
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid rgb(11, 2, 38);
+    border-radius: 5px;
+    color:aliceblue
+}
+#wrap{
+    width: 70%;
+    /* background-color: black; */
+    margin: auto;  /*center align*/
+}
+.insert{
+    margin-top: 50px;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.data{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    margin-top: 50px;
+    
+}
+.admin{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.insert a{
+    color: white;
+    text-decoration: none;
+}

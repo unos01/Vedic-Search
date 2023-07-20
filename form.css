@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.box{
+    margin: auto;
+    width: 50%;
+    /* background-color: antiquewhite; */
+    height: 700px;
+}
+form{
+    margin-top: 100px;
+}
+input{
+    height: 40px;
+    
+}
